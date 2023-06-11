@@ -1,12 +1,8 @@
 package com.synchrony.model;
 
-import java.util.Collection;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
-import org.springframework.security.core.GrantedAuthority;
-
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Transient;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
